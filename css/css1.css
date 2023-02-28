@@ -1,0 +1,65 @@
+/* shift+alt+A Comentario */
+h1 {
+    background-color: rgba(8, 41, 226, 0.42);
+    color:rgba(241, 8, 8, 0.742)
+}
+
+/* p {
+    background-color: green;
+    color: black;
+} */
+
+/* *{
+    padding: 0%;(relleno)
+    margin: ;(Margen)
+} */
+
+/* Selector de tipo */
+main {
+    border: 2px dotted rgb(3, 2, 1);
+}
+
+/* Selector por ID */
+#info {
+    border-bottom: 5px groove rgba(150, 9, 155, 0.607);
+}
+
+/* Seelector de clase */
+.titulo {
+    background-color: rgb(3, 209, 245);
+    color: black;
+    box-shadow: 10px 5px 5px rgb(6, 245, 85);
+}
+
+/* Selector de clase dce un tag en particular */
+h3.titulo {
+    font-size: 50px;
+}
+
+/* Selector por atributo. NO importa el valor que tenga el atributo */
+p[lang=es-mx]{
+    background-color: rgb(235, 0, 223);
+}
+
+/* Selector por atributo.Bscando un texto al final*/
+a[href^="ftp"]{
+    background-color: rgb(247, 148, 0);
+}
+
+a[href*="pagina"]{
+    font-size: 45px;
+}
+
+[class~="round"]{
+    border: 3px     solid rgb(163, 163, 218);
+    border-radius: 5px;
+}
+
+a, .titulo, [lang]{
+    color: blue;
+}
+
+/* selector de desendientes */
+h3 + p {
+    background-color: rgba(234, 250, 7, 0.589);
+}
